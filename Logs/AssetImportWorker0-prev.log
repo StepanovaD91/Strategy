@@ -1,0 +1,313 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Разработка Игр/!!! 2 Четверь/3 курс - стратегия/Github_Strategy/Strategy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57856
+Successfully changed project path to: D:/Разработка Игр/!!! 2 Четверь/3 курс - стратегия/Github_Strategy/Strategy
+D:/Разработка Игр/!!! 2 Четверь/3 курс - стратегия/Github_Strategy/Strategy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 108.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Разработка Игр/!!! 2 Четверь/3 курс - стратегия/Github_Strategy/Strategy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12027.7000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006526 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 97.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (789ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (549ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005985 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Разработка Игр\!!! 2 Четверь\3 курс - стратегия\Github_Strategy\Strategy\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Разработка Игр\!!! 2 Четверь\3 курс - стратегия\Github_Strategy\Strategy\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1490ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1201ms)
+			LoadAssemblies (277ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (57.2 KB). Loaded Objects now: 3911.
+Memory consumption went from 129.9 MB to 129.8 MB.
+Total: 3.694900 ms (FindLiveObjects: 0.361900 ms CreateObjectMapping: 0.178400 ms MarkObjects: 3.058700 ms  DeleteObjects: 0.094600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29185.872928 seconds.
+  path: Assets/ScriptableObject
+  artifactKey: Guid(dcdf074882b73004997286d876ef9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject using Guid(dcdf074882b73004997286d876ef9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa59dded0f86a7f12e36cf9cf7ef9e0') in 0.008235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.732082 seconds.
+  path: Assets/ScriptableObject/AssetsContext.asset
+  artifactKey: Guid(a9103d8dc2c08b048a18024a99099921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObject/AssetsContext.asset using Guid(a9103d8dc2c08b048a18024a99099921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce80aaf40fdc16f1423aba6e1fe808d') in 0.057124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 568.037638 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(bfe7622a9d5724a41b993d7415250e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(bfe7622a9d5724a41b993d7415250e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53142daf2bc1ae8c0428dab3e483349') in 0.004029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.493098 seconds.
+  path: Assets/Assets/QuickOutline
+  artifactKey: Guid(389c124a32725b549a1ea94f577b4ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QuickOutline using Guid(389c124a32725b549a1ea94f577b4ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71ee8fe3be4575e3a7d1bea3d87ae83') in 0.021863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.057941 seconds.
+  path: Assets/Assets/QuickOutline/Resources
+  artifactKey: Guid(70fd40674751a8042a8b9b2e8d9f915f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QuickOutline/Resources using Guid(70fd40674751a8042a8b9b2e8d9f915f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad6f3b33762fab65d44a8cc2c47aa40') in 0.001614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.672483 seconds.
+  path: Assets/Assets/3D Game Kit - Character Pack
+  artifactKey: Guid(8f7503cf3cb4e954fa284419d7829d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Character Pack using Guid(8f7503cf3cb4e954fa284419d7829d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85411f86bee7fd55cdcdb4509ada30d') in 0.026513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.431599 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack
+  artifactKey: Guid(d56943bf31b3884418c8d1b599855a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack using Guid(d56943bf31b3884418c8d1b599855a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09ea181e7f90b5207d28853018b5042') in 0.001897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.662447 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment
+  artifactKey: Guid(83ac68febd65bce479955fded4d5ccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment using Guid(83ac68febd65bce479955fded4d5ccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fe8b941d08e719665cde451d123ed2') in 0.029303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.299239 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks
+  artifactKey: Guid(afd05c8bc0eb8f54b9f192d76592d536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks using Guid(afd05c8bc0eb8f54b9f192d76592d536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8c76ab32b45e0a59e37499563655b3') in 0.001604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.291297 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Ground
+  artifactKey: Guid(93ad6dd4edfb24b4da64f6f09489eb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Ground using Guid(93ad6dd4edfb24b4da64f6f09489eb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a70f02b8438adbe3483ac06a6bb6acc') in 0.002707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.989154 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Vegetation
+  artifactKey: Guid(aa8b3df0cb3658c4497db6251530ed2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Vegetation using Guid(aa8b3df0cb3658c4497db6251530ed2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b843954217ede669d56b954c8aa348') in 0.001750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.660303 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models
+  artifactKey: Guid(bdbb1d28361b6b743b378c3209964c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models using Guid(bdbb1d28361b6b743b378c3209964c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2025317779e8494f80f4c67525c1c7c1') in 0.001689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064204 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/CliffBig01.fbx
+  artifactKey: Guid(843d122e5e84aa84db8a1036fe1d3dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/CliffBig01.fbx using Guid(843d122e5e84aa84db8a1036fe1d3dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835fcdfa37392e1ade36d4879e5dbb3e') in 1.457335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/CliffBig03.fbx
+  artifactKey: Guid(362e8229a15ec8740aca91e6ec290477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/CliffBig03.fbx using Guid(362e8229a15ec8740aca91e6ec290477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f3000233159f3d657565a501c39215') in 0.369402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/RockFloating02.fbx
+  artifactKey: Guid(28deb9f2de69da84a8b4690810e91ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/RockFloating02.fbx using Guid(28deb9f2de69da84a8b4690810e91ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36eb50b9d8b2852134d1963a019cd7c') in 0.354678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/RockLedge01.fbx
+  artifactKey: Guid(21880eb3f26ed7f4ea0648ac43fd486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/RockLedge01.fbx using Guid(21880eb3f26ed7f4ea0648ac43fd486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23da5e74e20611dc6eef2a245c675b87') in 0.294664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/CliffEdge01.fbx
+  artifactKey: Guid(04fa4995cb1cfcd4eb8dc1defa230c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/CliffEdge01.fbx using Guid(04fa4995cb1cfcd4eb8dc1defa230c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452e49fe1c7fb88e63ebc3b20b40d31f') in 0.383629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/SmallRock02.fbx
+  artifactKey: Guid(fef53f08537c45b45b13802e05610943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/SmallRock02.fbx using Guid(fef53f08537c45b45b13802e05610943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71442847c7331d08eb12ff78df59ae0d') in 0.192847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/SmallRock03.fbx
+  artifactKey: Guid(444c567cdf5dbb548861108ecae53204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/SmallRock03.fbx using Guid(444c567cdf5dbb548861108ecae53204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb734c37f04026e36c91788ff7f312bc') in 0.030892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/RockFloating01.fbx
+  artifactKey: Guid(2be1311ba057652448cee2e5e7f1e84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/RockFloating01.fbx using Guid(2be1311ba057652448cee2e5e7f1e84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5065eec3e7e4b8d3695e8f0ee90f3bbe') in 0.241091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/RockLedge02.fbx
+  artifactKey: Guid(a4181c3067a7a5c448ec8fca35647597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/RockLedge02.fbx using Guid(a4181c3067a7a5c448ec8fca35647597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf74697ebb168af4aa075a24ed2de3fe') in 0.444412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.425987 seconds.
+  path: Assets/Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperCutsceneTOIdle.fbx
+  artifactKey: Guid(80d4ed07373c2744c9b3005f4191436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperCutsceneTOIdle.fbx using Guid(80d4ed07373c2744c9b3005f4191436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b16f05c18ad2e25ffc60f85df6628e') in 0.268870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/BaseChangeListElement.uxml
+  artifactKey: Guid(bef3e204cca87f74199fb125d726b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/BaseChangeListElement.uxml using Guid(bef3e204cca87f74199fb125d726b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69058584b1f0282162078c121f527107') in 0.024005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperWalkForward.fbx
+  artifactKey: Guid(207dc8692867d714ab049ba3b95ff920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperWalkForward.fbx using Guid(207dc8692867d714ab049ba3b95ff920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a64db5d9810142f2998d9944c6592cd') in 0.094515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperHit3.fbx
+  artifactKey: Guid(ea28880f3c432b74ba40f56c53f03139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperHit3.fbx using Guid(ea28880f3c432b74ba40f56c53f03139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae98113a683651375c624b063df2f27') in 0.064954 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
