@@ -11,7 +11,7 @@ public class BottomLeftUI : MonoBehaviour
     [SerializeField] private SelectableValue _selectedValue;
     private void Start()
     {
-        _selectedValue.OnSelected += ONSelected;
+        _selectedValue.OnNewValue += ONSelected;
         ONSelected(_selectedValue.CurrentValue);
     }
     private void ONSelected(ISelecatable selected)

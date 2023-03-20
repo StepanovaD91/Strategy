@@ -2,6 +2,3 @@ public interface IStopCommand : ICommand
 {
 
 }
-
-
-

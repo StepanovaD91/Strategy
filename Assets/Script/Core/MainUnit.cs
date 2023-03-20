@@ -1,11 +1,13 @@
 using UnityEngine;
-public class MainUnit : MonoBehaviour, ISelecatable
+public class MainUnit : MonoBehaviour, ISelecatable, IAttackable
 {
     public float Health => _health;
     public float MaxHealth => _maxHealth;
+    
     public Sprite Icon => _icon;
+    public Transform PivotPoint => _pivotPoint;
 
-    public bool Interact => throw new System.NotImplementedException(); //пришлось добавить, была ошибка
+    [SerializeField] private Transform _pivotPoint;
 
 
     [SerializeField] private float _maxHealth = 100;
