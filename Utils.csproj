@@ -36,8 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Utils\IAwaiter.cs" />
      <Compile Include="Assets\Script\Utils\AssetsInjector\InjectAssetAttribute.cs" />
+     <Compile Include="Assets\Script\Utils\AwaiterBase.cs" />
+     <Compile Include="Assets\Script\Utils\AsyncExtensions.cs" />
      <Compile Include="Assets\Script\Utils\AssetsInjector\AssetsContext.cs" />
+     <Compile Include="Assets\Script\Utils\IAwaitable.cs" />
      <Compile Include="Assets\Script\Utils\AssetsInjector\AssetsInjector.cs" />
      <None Include="Assets\Script\Utils\Utils.asmdef" />
     <Reference Include="UnityEngine">

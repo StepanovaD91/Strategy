@@ -36,8 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Core\CommandExecutors\AttackCommandExecutor.cs" />
      <Compile Include="Assets\Script\Core\MainUnit.cs" />
      <Compile Include="Assets\Script\Core\MainBuilding.cs" />
+     <Compile Include="Assets\Script\Core\CommandExecutors\PatrolCommandExecutor.cs" />
+     <Compile Include="Assets\Script\Core\CommandExecutors\MoveCommandExecutor.cs" />
+     <Compile Include="Assets\Script\Core\UnitMovementStop.cs" />
+     <Compile Include="Assets\Script\Core\CommandExecutors\StopCommandExecutor.cs" />
      <None Include="Assets\Script\Core\Core.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -710,6 +715,10 @@
     <ProjectReference Include="Abstractions.csproj">
       <Project>{95853f1c-afe5-0319-76e3-15ba29d1f3b2}</Project>
       <Name>Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utils.csproj">
+      <Project>{97ea049d-cdfb-da91-ab89-b80393fd686a}</Project>
+      <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

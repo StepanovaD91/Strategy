@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\UserControlSystem\UI\Model\CommandCreators\CancellableCommandCreatorBase.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\CommandCreators\StopCommandCreator.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\CommandCreators\CommandButtonsModel.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\AttackableValue.cs" />
@@ -43,11 +44,11 @@
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\CommandCreators\ProduceUnitCommandCreator.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\CommandCreators\PatrolCommandCreator.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\UiModelInstaller.cs" />
+     <Compile Include="Assets\Script\UserControlSystem\UI\Model\ScriptableObjectValueBase.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\Vector3Value.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\CommandCreators\MoveCommandCreator.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\SelectableValue.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\CommandCreators\CommandCreatorBase.cs" />
-     <Compile Include="Assets\Script\UserControlSystem\UI\Model\ScriptableObjectValueBase.cs" />
      <None Include="Assets\Script\UserControlSystem\UI\Model\UIModel.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

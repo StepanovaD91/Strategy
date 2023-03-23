@@ -38,7 +38,6 @@
   <ItemGroup>
      <Compile Include="Assets\Script\Abstractions\IUnitProducer.cs" />
      <Compile Include="Assets\Script\Abstractions\IAttackable.cs" />
-     <Compile Include="Assets\Script\Abstractions\Commands\CommandExecutors\AttackCommandExecutor.cs" />
      <Compile Include="Assets\Script\Abstractions\Commands\ICommandExecutor.cs" />
      <Compile Include="Assets\Script\Abstractions\IHealthHolder.cs" />
      <Compile Include="Assets\Script\Abstractions\Commands\ICommand.cs" />
@@ -46,11 +45,8 @@
      <Compile Include="Assets\Script\Abstractions\Commands\CommandsInterfaces\IAttackCommand.cs" />
      <Compile Include="Assets\Script\Abstractions\Commands\CommandsInterfaces\IStopCommand.cs" />
      <Compile Include="Assets\Script\Abstractions\Commands\CommandExecutorBase.cs" />
-     <Compile Include="Assets\Script\Abstractions\Commands\CommandExecutors\PatrolCommandExecutor.cs" />
      <Compile Include="Assets\Script\Abstractions\Commands\CommandsInterfaces\IMoveCommand.cs" />
-     <Compile Include="Assets\Script\Abstractions\Commands\CommandExecutors\MoveCommandExecutor.cs" />
      <Compile Include="Assets\Script\Abstractions\Commands\CommandsInterfaces\IPatrolCommand.cs" />
-     <Compile Include="Assets\Script\Abstractions\Commands\CommandExecutors\StopCommandExecutor.cs" />
      <Compile Include="Assets\Script\Abstractions\ISelecatable.cs" />
      <None Include="Assets\Script\Abstractions\Abstractions.asmdef" />
     <Reference Include="UnityEngine">
