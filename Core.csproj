@@ -43,6 +43,8 @@
      <Compile Include="Assets\Script\Core\CommandExecutors\MoveCommandExecutor.cs" />
      <Compile Include="Assets\Script\Core\UnitMovementStop.cs" />
      <Compile Include="Assets\Script\Core\CommandExecutors\StopCommandExecutor.cs" />
+     <Compile Include="Assets\Script\Core\TimeModel.cs" />
+     <Compile Include="Assets\Script\Core\CoreInstaller.cs" />
      <None Include="Assets\Script\Core\Core.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -719,6 +721,14 @@
     <ProjectReference Include="Utils.csproj">
       <Project>{97ea049d-cdfb-da91-ab89-b80393fd686a}</Project>
       <Name>Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{2e1f5790-dd73-bf13-3ffe-910ff75a1743}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject.csproj">
+      <Project>{aa5275e8-39f6-6a66-e904-b925edb689dc}</Project>
+      <Name>Zenject</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

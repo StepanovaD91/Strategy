@@ -43,6 +43,7 @@
      <Compile Include="Assets\Script\Utils\AssetsInjector\AssetsContext.cs" />
      <Compile Include="Assets\Script\Utils\IAwaitable.cs" />
      <Compile Include="Assets\Script\Utils\AssetsInjector\AssetsInjector.cs" />
+     <Compile Include="Assets\Script\Utils\UniRxExtensions.cs" />
      <None Include="Assets\Script\Utils\Utils.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -712,6 +713,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{2e1f5790-dd73-bf13-3ffe-910ff75a1743}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

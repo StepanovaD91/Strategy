@@ -49,6 +49,8 @@
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\CommandCreators\MoveCommandCreator.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\SelectableValue.cs" />
      <Compile Include="Assets\Script\UserControlSystem\UI\Model\CommandCreators\CommandCreatorBase.cs" />
+     <Compile Include="Assets\Script\UserControlSystem\UI\Model\StatelessScriptableObjectValueBase.cs" />
+     <Compile Include="Assets\Script\UserControlSystem\UI\Model\StatefulScriptableObjectValueBase.cs" />
      <None Include="Assets\Script\UserControlSystem\UI\Model\UIModel.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -737,6 +739,10 @@
     <ProjectReference Include="Zenject.csproj">
       <Project>{aa5275e8-39f6-6a66-e904-b925edb689dc}</Project>
       <Name>Zenject</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{2e1f5790-dd73-bf13-3ffe-910ff75a1743}</Project>
+      <Name>UniRx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

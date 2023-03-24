@@ -48,6 +48,7 @@
      <Compile Include="Assets\Script\Abstractions\Commands\CommandsInterfaces\IMoveCommand.cs" />
      <Compile Include="Assets\Script\Abstractions\Commands\CommandsInterfaces\IPatrolCommand.cs" />
      <Compile Include="Assets\Script\Abstractions\ISelecatable.cs" />
+     <Compile Include="Assets\Script\Abstractions\ITimeModel.cs" />
      <None Include="Assets\Script\Abstractions\Abstractions.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
